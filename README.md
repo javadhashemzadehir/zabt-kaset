@@ -1,7 +1,7 @@
 # Zabt Kaset
 
 <p align="center">
-  <img src="assets/images/banner.png" alt="Zabt Kaset — open-source media archive & downloader" width="100%" />
+  <img src="assets/images/zabt-kaset-banner.png" alt="Zabt Kaset — open-source media archive & downloader" width="100%" />
 </p>
 
 Professional desktop media downloader and organizer for YouTube and beyond.
