@@ -1,5 +1,9 @@
 # Zabt Kaset
 
+<p align="center">
+  <img src="assets/images/banner.png" alt="Zabt Kaset — open-source media archive & downloader" width="100%" />
+</p>
+
 Professional desktop media downloader and organizer for YouTube and beyond.
 
 Zabt Kaset combines the queue discipline of classic download managers with a
@@ -16,8 +20,6 @@ media, subtitles, metadata, and smart library organization.
 | _Coming soon_ | _Coming soon_ |
 
 Place product screenshots in `assets/images/` and link them here before release.
-
-![Banner](assets/images/banner.png)
 
 ## Features
 
