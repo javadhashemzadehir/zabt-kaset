@@ -67,11 +67,11 @@ tools/yt-dlp*
 tools/ffmpeg*
 tools/ffprobe*
 
-# Local media / downloads (dev)
-downloads/
-media/
-tmp/
-temp/
+# Local media / downloads (dev) — only at repo root
+/downloads/
+/media/
+/tmp/
+/temp/
 *.mp4
 *.mkv
 *.webm
