@@ -66,7 +66,7 @@ mod tests {
     #[test]
     fn hashes_file() {
         let mut f = NamedTempFile::new().unwrap();
-        write!(f, "zabet-kaset").unwrap();
+        write!(f, "zabt-kaset").unwrap();
         let hash = sha256_file(f.path()).unwrap();
         assert_eq!(hash.len(), 64);
     }

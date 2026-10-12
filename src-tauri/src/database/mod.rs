@@ -42,5 +42,5 @@ impl DbState {
 
 pub fn default_db_path() -> AppResult<PathBuf> {
     let base = dirs::data_dir().ok_or_else(|| AppError::Internal("no data dir".into()))?;
-    Ok(base.join("zabet-kaset").join("zabet-kaset.db"))
+    Ok(base.join("zabt-kaset").join("zabt-kaset.db"))
 }

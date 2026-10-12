@@ -5521,7 +5521,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "zabet-kaset"
+name = "zabt-kaset"
 version = "0.1.0"
 dependencies = [
  "anyhow",

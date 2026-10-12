@@ -1,11 +1,11 @@
-# AGENTS.md — Zabet Kaset
+# AGENTS.md — Zabt Kaset
 
 Instructions for human contributors and AI coding agents working in this
 repository.
 
 ## Project identity
 
-**Zabet Kaset** is a Tauri v2 + Next.js desktop media manager. Treat it as a
+**Zabt Kaset** is a Tauri v2 + Next.js desktop media manager. Treat it as a
 production open-source product: prefer maintainability, security, and clear
 boundaries over clever shortcuts.
 

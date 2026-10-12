@@ -27,6 +27,6 @@ export const useUiStore = create<UiState>()(
       setClipboardMonitor: (clipboardMonitor) => set({ clipboardMonitor }),
       toggleSidebar: () => set((s) => ({ sidebarCollapsed: !s.sidebarCollapsed })),
     }),
-    { name: "zabet-kaset-ui" },
+    { name: "zabt-kaset-ui" },
   ),
 );

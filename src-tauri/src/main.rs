@@ -1,5 +1,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    zabet_kaset_lib::run();
+    zabt_kaset_lib::run();
 }

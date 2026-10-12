@@ -20,7 +20,7 @@ use tracing_subscriber::EnvFilter;
 pub fn run() {
     tracing_subscriber::fmt()
         .with_env_filter(
-            EnvFilter::from_default_env().add_directive("zabet_kaset=info".parse().unwrap()),
+            EnvFilter::from_default_env().add_directive("zabt_kaset=info".parse().unwrap()),
         )
         .init();
 

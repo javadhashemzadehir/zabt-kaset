@@ -1,4 +1,4 @@
--- Zabet Kaset initial schema
+-- Zabt Kaset initial schema
 
 CREATE TABLE IF NOT EXISTS schema_migrations (
     version TEXT PRIMARY KEY NOT NULL,

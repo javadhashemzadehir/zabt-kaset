@@ -16,7 +16,7 @@ const tips = {
 const platform = process.platform;
 const key = platform === "win32" ? "windows" : platform === "darwin" ? "macos" : "linux";
 
-console.log("Zabet Kaset — media tool setup");
+console.log("Zabt Kaset — media tool setup");
 console.log("Ensure yt-dlp and ffmpeg are on PATH, or set absolute paths in Settings → Tools.\n");
 console.log(`Suggested commands (${key}):`);
 for (const line of tips[key]) {

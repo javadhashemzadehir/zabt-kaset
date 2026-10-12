@@ -1,14 +1,14 @@
 [package]
-name = "zabet-kaset"
+name = "zabt-kaset"
 version = "0.1.0"
-description = "Zabet Kaset — desktop media downloader and organizer"
-authors = ["Zabet Kaset Contributors"]
+description = "Zabt Kaset — desktop media downloader and organizer"
+authors = ["Zabt Kaset Contributors"]
 license = "MIT"
 edition = "2021"
 rust-version = "1.77"
 
 [lib]
-name = "zabet_kaset_lib"
+name = "zabt_kaset_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]

@@ -1,8 +1,8 @@
-# Zabet Kaset
+# Zabt Kaset
 
 Professional desktop media downloader and organizer for YouTube and beyond.
 
-Zabet Kaset combines the queue discipline of classic download managers with a
+Zabt Kaset combines the queue discipline of classic download managers with a
 modern desktop UX: single videos, playlists, channels, Shorts, community post
 media, subtitles, metadata, and smart library organization.
 
@@ -82,8 +82,8 @@ See [docs/architecture.md](docs/architecture.md).
 ### Clone
 
 ```bash
-git clone https://github.com/zabet-kaset/zabet-kaset.git
-cd zabet-kaset
+git clone https://github.com/javadhashemzadehir/zabt-kaset.git
+cd zabt-kaset
 pnpm install
 ```
 

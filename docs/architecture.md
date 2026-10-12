@@ -2,7 +2,7 @@
 
 ## Overview
 
-Zabet Kaset is a desktop application with a web frontend embedded in a Tauri
+Zabt Kaset is a desktop application with a web frontend embedded in a Tauri
 webview and a Rust backend that owns persistence, process orchestration, and
 security-sensitive operations.
 

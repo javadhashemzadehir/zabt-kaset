@@ -1,19 +1,19 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Zabet Kaset",
+  "productName": "Zabt Kaset",
   "version": "0.1.0",
-  "identifier": "app.zabetkaset.desktop",
+  "identifier": "app.zabtkaset.desktop",
   "build": {
-    "beforeDevCommand": "pnpm --filter @zabet-kaset/desktop dev",
+    "beforeDevCommand": "pnpm --filter @zabt-kaset/desktop dev",
     "devUrl": "http://localhost:3000",
-    "beforeBuildCommand": "pnpm --filter @zabet-kaset/desktop build",
+    "beforeBuildCommand": "pnpm --filter @zabt-kaset/desktop build",
     "frontendDist": "../apps/desktop/out"
   },
   "app": {
     "withGlobalTauri": false,
     "windows": [
       {
-        "title": "Zabet Kaset",
+        "title": "Zabt Kaset",
         "width": 1280,
         "height": 800,
         "minWidth": 960,

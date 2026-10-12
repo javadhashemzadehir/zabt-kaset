@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a defect in Zabet Kaset
+about: Report a defect in Zabt Kaset
 labels: bug
 ---
 

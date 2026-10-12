@@ -1,4 +1,4 @@
-# Contributing to Zabet Kaset
+# Contributing to Zabt Kaset
 
 Thank you for contributing. This guide keeps the project consistent and
 reviewable.

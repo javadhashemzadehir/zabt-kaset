@@ -4,7 +4,7 @@ import { AppShell } from "@/components/layout/app-shell";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Zabet Kaset",
+  title: "Zabt Kaset",
   description: "Professional desktop media downloader and organizer",
 };
 

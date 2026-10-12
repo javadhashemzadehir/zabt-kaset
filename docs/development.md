@@ -11,8 +11,8 @@
 ## Setup
 
 ```bash
-git clone https://github.com/zabet-kaset/zabet-kaset.git
-cd zabet-kaset
+git clone https://github.com/javadhashemzadehir/zabt-kaset.git
+cd zabt-kaset
 cp .env.example .env
 pnpm install
 ```
@@ -40,7 +40,7 @@ pnpm rust:test
 
 ## Frontend notes
 
-- Package: `@zabet-kaset/desktop` in `apps/desktop`
+- Package: `@zabt-kaset/desktop` in `apps/desktop`
 - Path alias `@/` → `apps/desktop`
 - shadcn components live in `components/ui`
 - Add features under `features/<domain>`
