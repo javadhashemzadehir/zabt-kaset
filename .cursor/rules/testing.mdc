@@ -1,0 +1,13 @@
+﻿---
+description: Testing expectations
+globs: "**/*.{test,spec}.{ts,tsx};**/tests/**;src-tauri/**/*.rs"
+alwaysApply: false
+---
+
+# Testing rules
+
+- Unit-test pure helpers (URL parsing, organizer templates, hashing).
+- Mock external processes in CI — no live YouTube calls.
+- Rust: `cargo test` for database migrations and validators.
+- Frontend: Vitest for lib/store helpers.
+- New commands should include validation failure coverage when practical.

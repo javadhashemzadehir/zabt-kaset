@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "ضبط کاست",
+    "tagline": "مدیریت حرفه‌ای دانلود رسانه"
+  },
+  "nav": {
+    "downloads": "دانلودها",
+    "queue": "صف",
+    "history": "تاریخچه",
+    "channels": "کانال‌ها",
+    "tools": "ابزارها",
+    "settings": "تنظیمات"
+  },
+  "downloads": {
+    "title": "دانلود جدید",
+    "placeholder": "لینک‌های یوتیوب یا رسانه را وارد کنید (هر خط یک آدرس)",
+    "submit": "افزودن به صف",
+    "preset": "پیش‌تنظیم",
+    "empty": "لینک را اینجا رها کنید یا از کلیپ‌بورد جای‌گذاری کنید",
+    "sourceType": "نوع منبع"
+  },
+  "queue": {
+    "title": "صف دانلود",
+    "empty": "صف خالی است",
+    "pause": "توقف",
+    "resume": "ادامه",
+    "cancel": "لغو",
+    "retry": "تلاش مجدد"
+  },
+  "history": {
+    "title": "تاریخچه",
+    "search": "جستجوی دانلودها",
+    "empty": "هنوز دانلودی نیست"
+  },
+  "channels": {
+    "title": "کانال‌ها",
+    "sync": "برنامه همگام‌سازی",
+    "empty": "یک کانال اضافه کنید تا محتوای جدید دریافت شود"
+  },
+  "tools": {
+    "title": "ابزارها",
+    "ytDlp": "yt-dlp",
+    "ffmpeg": "FFmpeg",
+    "refresh": "بروزرسانی وضعیت",
+    "update": "به‌روزرسانی yt-dlp",
+    "notFound": "یافت نشد"
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "theme": "پوسته",
+    "language": "زبان",
+    "clipboard": "پایش کلیپ‌بورد"
+  },
+  "states": {
+    "waiting": "در انتظار",
+    "analyzing": "در حال بررسی",
+    "downloading": "در حال دانلود",
+    "processing": "پردازش",
+    "completed": "کامل",
+    "failed": "ناموفق",
+    "cancelled": "لغو شده"
+  },
+  "common": {
+    "loading": "در حال بارگذاری…",
+    "error": "خطایی رخ داد",
+    "save": "ذخیره",
+    "browserOnly": "برای دسترسی به API دسکتاپ از `pnpm tauri:dev` استفاده کنید."
+  }
+}

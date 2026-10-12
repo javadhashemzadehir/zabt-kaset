@@ -1,0 +1,32 @@
+﻿# Private agent data — never index or ship
+.cursor/private/
+.agents/private/
+.cursor/memories/
+.agents/memories/
+**/.agent-temp/
+**/.ai-scratch/
+**/local-prompts/
+
+# Build artifacts
+node_modules/
+.target/
+target/
+.next/
+out/
+dist/
+coverage/
+*.db
+*.log
+
+# Large / binary assets not needed for coding context
+downloads/
+media/
+bin/
+tools/
+*.mp4
+*.mkv
+*.webm
+*.mp3
+docs/fonts/
+docs/images/*.png
+docs/images/*.ico

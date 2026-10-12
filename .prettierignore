@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+dist
+target
+coverage
+pnpm-lock.yaml
+Cargo.lock
+*.md
+CHANGELOG.md

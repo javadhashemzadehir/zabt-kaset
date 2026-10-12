@@ -1,0 +1,13 @@
+﻿---
+description: Documentation maintenance
+globs: "{docs,*.md}/**/*;*.md"
+alwaysApply: false
+---
+
+# Documentation rules
+
+- Update README and docs when user-facing behavior changes.
+- Document new IPC commands in docs/architecture.md.
+- Schema changes require docs/database.md + a numbered SQL migration.
+- Prefer short concrete examples over long prose.
+- Never add AI/tool branding to product docs.

@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 28% 97%;
+  --foreground: 222 40% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 40% 10%;
+  --primary: 199 89% 38%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 24% 92%;
+  --secondary-foreground: 222 30% 18%;
+  --muted: 210 20% 94%;
+  --muted-foreground: 215 16% 40%;
+  --accent: 168 55% 36%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 72% 48%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 214 22% 86%;
+  --input: 214 22% 86%;
+  --ring: 199 89% 38%;
+  --success: 152 60% 36%;
+  --warning: 38 92% 45%;
+  --radius: 0.75rem;
+  --font-sans: "Segoe UI", Tahoma, sans-serif;
+  --font-display: "Comfortaa", "Segoe UI", sans-serif;
+}
+
+.dark {
+  --background: 222 36% 7%;
+  --foreground: 210 30% 96%;
+  --card: 222 32% 10%;
+  --card-foreground: 210 30% 96%;
+  --primary: 196 90% 52%;
+  --primary-foreground: 222 40% 8%;
+  --secondary: 217 24% 16%;
+  --secondary-foreground: 210 30% 96%;
+  --muted: 217 22% 14%;
+  --muted-foreground: 215 16% 68%;
+  --accent: 168 50% 42%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 70% 48%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 217 20% 18%;
+  --input: 217 20% 18%;
+  --ring: 196 90% 52%;
+  --success: 152 55% 45%;
+  --warning: 38 92% 50%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body {
+    @apply min-h-screen bg-background text-foreground antialiased;
+  }
+
+  body {
+    background-image: theme("backgroundImage.app-glow");
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .panel {
+    @apply rounded-lg border border-border/80 bg-card/80 shadow-soft backdrop-blur-sm;
+  }
+}

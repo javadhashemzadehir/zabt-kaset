@@ -1,0 +1,13 @@
+﻿---
+description: Security requirements for IPC, paths, and processes
+alwaysApply: true
+---
+
+# Security rules
+
+- Treat all IPC payloads as untrusted.
+- No shell interpolation of URLs, filenames, or proxy strings.
+- Cookies and secrets never go to logs or telemetry.
+- Keep Tauri capabilities least-privilege.
+- Reject path traversal and unexpected URL schemes.
+- Do not commit `.env`, cookies, or local databases.

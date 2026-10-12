@@ -1,0 +1,15 @@
+﻿---
+description: Rust / Tauri backend standards
+globs: src-tauri/**/*.rs
+alwaysApply: false
+---
+
+# Rust backend rules
+
+- Keep Tauri commands thin; put logic in `services/` or domain modules.
+- Use `thiserror` (`AppError`) and map at the command boundary.
+- Never build shell strings — always argv arrays for yt-dlp/ffmpeg.
+- Validate URLs (http/https only), paths, enums, and lengths.
+- Canonicalize paths and reject traversal outside download roots.
+- Prefer Tokio for process/network I/O; do not block the main thread.
+- Add unit tests for pure validators and template expanders.

@@ -1,0 +1,16 @@
+﻿---
+description: Frontend standards for the Next.js desktop app
+globs: apps/desktop/**/*.{ts,tsx,css}
+alwaysApply: false
+---
+
+# Frontend rules
+
+- Use TypeScript strict; avoid `any`.
+- Prefer feature modules under `features/` for domain UI.
+- Keep `components/ui` generic (shadcn/Radix only).
+- Validate user/IPC input with Zod before invoke.
+- Use TanStack Query for IPC reads/mutations; Zustand for ephemeral UI.
+- Support RTL with logical Tailwind classes (`ps-`, `pe-`, `ms-`, `me-`).
+- Handle loading, empty, and error states on every data view.
+- Do not call `invoke` directly in components — use `lib/tauri.ts`.

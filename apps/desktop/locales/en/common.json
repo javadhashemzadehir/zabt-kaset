@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "Zabet Kaset",
+    "tagline": "Professional media download manager"
+  },
+  "nav": {
+    "downloads": "Downloads",
+    "queue": "Queue",
+    "history": "History",
+    "channels": "Channels",
+    "tools": "Tools",
+    "settings": "Settings"
+  },
+  "downloads": {
+    "title": "New download",
+    "placeholder": "Paste YouTube or media URLs (one per line)",
+    "submit": "Add to queue",
+    "preset": "Preset",
+    "empty": "Drop links here or paste from the clipboard",
+    "sourceType": "Source type"
+  },
+  "queue": {
+    "title": "Download queue",
+    "empty": "Queue is empty",
+    "pause": "Pause",
+    "resume": "Resume",
+    "cancel": "Cancel",
+    "retry": "Retry"
+  },
+  "history": {
+    "title": "History",
+    "search": "Search downloads",
+    "empty": "No downloads yet"
+  },
+  "channels": {
+    "title": "Channels",
+    "sync": "Plan sync",
+    "empty": "Track a channel to download new uploads"
+  },
+  "tools": {
+    "title": "Tools",
+    "ytDlp": "yt-dlp",
+    "ffmpeg": "FFmpeg",
+    "refresh": "Refresh status",
+    "update": "Update yt-dlp",
+    "notFound": "Not found"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "clipboard": "Clipboard monitoring"
+  },
+  "states": {
+    "waiting": "Waiting",
+    "analyzing": "Analyzing",
+    "downloading": "Downloading",
+    "processing": "Processing",
+    "completed": "Completed",
+    "failed": "Failed",
+    "cancelled": "Cancelled"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "save": "Save",
+    "browserOnly": "Open with `pnpm tauri:dev` to use desktop APIs."
+  }
+}
